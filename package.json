@@ -4,6 +4,7 @@
   "main": "renfonts.js",
   "license": "MIT",
   "dependencies": {
+    "ascii-progress": "^1.0.5",
     "opentype.js": "^0.7.3",
     "sanitize-filename": "^1.6.1",
     "shelljs": "^0.8.1",
