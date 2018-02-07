@@ -35,7 +35,7 @@ function main() {
     $.config.silent = true; // stfu
 
     // should probably rewrite this as a glob
-    let fonts = $.ls(['*.ttf', '*.otf', '.*.ttf', '.*.otf']); // covering all the bases
+    let fonts = $.ls('?(.)*.@(o|t)tf'); // covering all the bases
 
     // reassurance bc this script is SLOW af
     let bar = new AsciiProgress({
