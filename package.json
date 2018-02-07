@@ -1,0 +1,13 @@
+{
+  "name": "renfonts-js",
+  "version": "1.0.0",
+  "main": "renfonts.js",
+  "license": "MIT",
+  "dependencies": {
+    "opentype.js": "^0.7.3",
+    "sanitize-filename": "^1.6.1",
+    "shelljs": "^0.8.1",
+    "winston": "^3.0.0-rc1",
+    "yargs": "^11.0.0"
+  }
+}
